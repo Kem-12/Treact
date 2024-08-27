@@ -13,7 +13,6 @@ body {
 
 p {
   font-size: 20px;
-  margin: 16px;
   word-spacing: 2px;
   margin-top: 24px;
   margin-bottom: 40px;
@@ -49,12 +48,13 @@ nav {
   max-width: 1200px;
   justify-content: space-between;
   margin: 0 auto;
-  margin-bottom: 300px;
+  margin-bottom: 250px;
   max-height: 600px;
 }
 
 .blue {
   color: #6115ff;
+  margin: 0;
 }
 
 h1 {
@@ -87,14 +87,14 @@ h4 {
   font-size: 24px;
   text-decoration: none;
   font-weight: bold;
-  color: black;}
+  color: #243e63;}
   
 
 .nav-link {
     padding-left: 16px;
     text-decoration: none;
     list-style-type: none;
-    color: black;
+    color: #243e63;
     padding: 20px;
 }
 
@@ -142,7 +142,6 @@ BEAUTIFUL REACT TEMPLETS
   width: 100%;
   max-width: 100%;
   height: 100%;
-  max-height: 100%;
   max-height: 100%;
 }
 
@@ -230,7 +229,7 @@ input {
   max-width: 1200px;
   width: 100%;
   margin: 0 auto;
-  margin-bottom: 150px;
+  
 }
 
 .feat-icon_wrapper {
@@ -258,7 +257,7 @@ input {
 }
 
 .feat-icon {
-  font-size: 24px;
+  font-size: 20px;
   border: solid rgba(211, 211, 211, 0.349);
   border-radius: 150px;
   color: #6115ff;
@@ -298,35 +297,45 @@ QUALITY WORK
   width: 100%;
   max-width: 100%;
   display: flex;
-  height: 600px;
+  height: 400px;
   max-height: 100%;
   margin: 0;
 }
 
 .quality-descript {
-  width: 100%;
-  max-width: 50%;
+  width: 50%;
   height: 100%;
   max-height: 595px;
 }
 
 .template-example {
-  width: 100%;
-  max-width: 50%;
+  width: 50%; 
   height: 100%;
   max-height: 100%;
-  margin: 0 auto;
-  
-}
+ }
 
-.home-container {
- height: 590px;
+.quality-img_container {
+ height: 100%;
  max-height: 100%;
-}
+ width: 100%;
+ }
+
+ .quality-img {
+    max-width: 100%;
+    border: 1px solid #e5e7eb;
+    border-radius: 4px;    
+ }
 
 .quality-header {
-  max-width: 361px;
+  max-width: 360px;
 }
+
+.quality-p {
+    padding-right: 32px;
+}
+
+
+
 
 /*
 
@@ -335,9 +344,10 @@ STEPS
 */
 
 .steps {
-    margin-top: 350px;
+    
     max-width: 1200px;
     width: 100%;
+    margin: 0 auto;
 }
 
 .steps-wrapper {
@@ -345,32 +355,85 @@ STEPS
     width: 100%;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    margin: 0 auto;
 }
 
 .laptop-display {
     max-width: 50%;
     width: 100%;
     margin-left: 75px;
-}
-
-.three-step_wrapper {
-    max-width: 50%;
-    width: 100%;
-    margin-left: 100px;
-}
-
-.three-step {
     
-    width: 100%;
-    max-width: 100%;
 }
 
 .step-img_wrap {
     width: 100%;
-    max-width: 100%;
+    max-width: 100%;    
 }
 
+.wraps-wrap {
+    margin-top: 56px;
+    width: 100%;
+    max-width: 50%;
+}
+
+.three-step_wrapper {
+    max-width: 100%;
+    width: 100%;
+    margin-left: 75px;
+    align-items: start;
+}
+
+.three-step_wrap {
+    width: 100%;
+    max-width: 100%;  
+    
+}
+
+
 .step-num {
+    width: 24px;
+    height: 24px;
     display: flex;
+    margin-right: 48px;
+    font-size: 24px;
+    color: #cbd5e0;
+}
+
+.three-step {
+    display: flex;
+    max-width: 100%;
+    }
+
+.step-format {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.step-seq {
+    font-size: 1.25 rem;
+    font-weight: 550;
+    color: #243e63;
+}
+
+.p-seq {color: #718096;
+        font-size: 16px;
+        margin-top: 16px;
+
+}
+
+.etgs {
+    margin: 0;
+    padding: 0;
+    left: 20px;
+    width: 100%;
+    left: 8px;
+}
+
+.steps-header {
+    right: 8px;
+}
+
+.green {
+    color: #243e63;
 }
