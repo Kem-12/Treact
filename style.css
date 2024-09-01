@@ -24,7 +24,7 @@ nav {
   max-width: 1200px;
   display: flex;
   margin: 0 auto;
-  margin-top: 40px;
+  margin-top: 80px;
   margin-bottom: 200px;
 }
 
@@ -55,6 +55,10 @@ nav {
 .blue {
   color: #6115ff;
   margin: 0;
+}
+
+.green {
+    color: #243e63;
 }
 
 h1 {
@@ -434,6 +438,292 @@ STEPS
     right: 8px;
 }
 
-.green {
-    color: #243e63;
+
+/*
+
+values
+
+*/
+
+.values { width: 100%;
+        max-width: 1200px;
+        margin: 0 auto;
+        margin-top: 350px;}
+
+.values-wrapper{
+    width: 100%;
+    display: flex;    
+}
+
+.left-values_column {
+    width: 100%;
+    max-width: 50%;
+}
+
+.right-values_column {
+    width: 100%;
+    max-width: 50%;
+    height: 100%;
+    max-height: 100%;
+}
+
+.icon-header_wrapper {
+    display: flex;
+    
+}
+
+.values-points_wrapper {
+    display: flex;
+}
+
+.values-pic {
+    width: 100%;
+    padding-top: 130px;
+    padding-left: 16px;
+    
+}
+
+.values-btn {
+  padding: 8px 24px;
+  color: white;
+  background-color: #6115ff;
+  font-size: 18px;
+  border-radius: 50px;
+}
+
+.v-icon_wrap {
+  max-width: 36px;
+  width: 100%;
+  max-height: 36px;
+  height: 100%;
+}
+
+.fa-sack-dollar {
+  background-color: #9ae6b4;
+  padding: 10px 10px;
+  border-radius: 60px;
+}
+
+.fa-suitcase { 
+  background-color: #feb2b2;
+  padding: 10px 10px;
+  border-radius: 60px;
+}
+
+.values-icon_header {
+  padding-left: 16px;
+}
+
+/*
+
+pricing
+
+*/
+
+.pricing { 
+  width: 100%;
+  max-width: 1200px;
+  padding-top: 250px;
+  margin: 0 auto;
+  }
+
+.pricing-wrapper {margin: 0 auto;
+   max-width: 100%;}
+
+.pricing-p {
+    text-align: center;
+}
+
+.pricing-h_three {
+  text-align: center; 
+}
+
+.pricing-h_one {
+  text-align: center;
+  color: #243e63;
+}
+
+.plans-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.ind-plans {
+  width: calc(100% / 3);  
+}
+
+.plan-a_c {
+  width: 100%;
+  max-width: 370px;
+  height: 610px;
+  max-height: 100%;
+  margin: 0 auto;
+  border-radius: 11px 11px 11px 11px;
+  border: #7c8ba146 solid .5px;
+}
+
+.plan-b {
+  background-image: linear-gradient(135deg, rgb(76, 81, 191) 0%, rgb(102, 126, 234) 100%);
+    background-position: initial;
+    background-size: initial;
+    background-repeat: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    --tw-bg-opacity: 1;
+    background-color: rgb(100 21 255 / var(--tw-bg-opacity));
+    --tw-text-opacity: 1;
+    width: 100%;
+  max-width: 370px;
+  height: 610px;
+  max-height: 100%;
+  margin: 0 auto;
+  border-radius: 11px 11px 11px 11px;
+  border: #7c8ba1;
+}
+
+
+
+.highlight {
+  max-height: 8px;
+  height: 100%;
+  border-radius: 30px 30px 0 0;     
+  background-color: rgb(56,178,172);
+}
+
+
+.plan-c_highlight {
+  max-height: 8px;
+  height: 100%;
+  border-radius: 30px 30px 0 0;
+  background-color:rgba(245, 101, 101, 0.668)
+}
+
+.plan-type {
+  max-height: 208px;
+  height: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  bottom: 20px;
+  justify-content: space-between;
+}
+
+.clients {
+  max-height: 273px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  margin: 0 auto; 
+  justify-content: space-between;
+}
+
+hr {
+  width: 100%;
+  border: #7c8ba146 solid .5px;
+}
+
+.hr-tag {
+  margin-top: 7px;
+}
+.plan-header_personal {
+   padding-top: 16px; 
+  font-size: 32px;
+  color: #243e63;
+}
+
+.plan-header_rate {
+color: #243e63;
+}
+
+.plan-header_freq {
+ color: #a0aec0;  
+ font-weight: 500;
+}
+
+ .clients-h_two {
+  padding-top: 36px;
+  padding-bottom: 24px;
+  color: #243e63;
+}
+
+ .clients-h_three {
+  font-weight: 500;
+  color: #718096;
+}
+
+ .btn-wrap {
+  max-height: 117px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+ .plans-btn {
+  font-size: 20px;
+  height: 48px;
+  width: 100%;
+  max-width: 160px;
+  border-radius: 100px;
+  opacity: .9 ease; 
+  background-color: rgb(56,178,172);
+  border: white;
+  color: white;
+}
+
+.plans-c_btn {
+  font-size: 20px;
+  height: 48px;
+  width: 100%;
+  max-width: 160px;
+  border-radius: 100px;
+  opacity: .9 ease; 
+  background-color: rgba(245, 101, 101, 0.738);
+  border: white;
+  color: white;
+}
+
+.b-h,
+.b-h_r,
+.b-h_f,
+.b-h_p,
+.b-h_t,
+.b-h_three {
+  color: #f7fafc;
+}
+
+.b-h_r {
+  font-size: 48px;
+}
+
+.b-h_p {
+  font-size: 32px;
+  padding-top: 28px;
+}
+
+.b-h_three
+.b-h_f 
+{
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.b-h_t {
+ font-size: 1.5em; 
+ padding-top: 36px;
+ padding-bottom: 24px;
+}
+
+.plans-b_btn {
+  font-size: 20px;
+  height: 48px;
+  width: 100%;
+  max-width: 160px;
+  border-radius: 100px;
+  background-color: #f7fafc;
+  color: #6415FF;
+  border: #f7fafc;
 }
