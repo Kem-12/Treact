@@ -525,6 +525,7 @@ pricing
   max-width: 1200px;
   padding-top: 250px;
   margin: 0 auto;
+  margin-bottom: 250px;
   }
 
 .pricing-wrapper {margin: 0 auto;
@@ -726,4 +727,43 @@ color: #243e63;
   background-color: #f7fafc;
   color: #6415FF;
   border: #f7fafc;
+}
+
+/*
+
+TESTIMONIAL
+
+*/
+
+.testimonials {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.testimonials-wrap {
+  width: 100%;
+  max-width: 100%;
+  display: flex;
+}
+
+.left-test_column {
+  width: 100%;
+  max-width: 50%;
+}
+
+
+.right-test_column {
+  width: 100%;
+  max-width: 50%;
+}
+
+.test-pic_wrap {
+  width: 100%;
+  max-width: 100%;
+}
+
+.testimonial-pic {
+  width: 100%;
+  max-width: 100%;
 }
