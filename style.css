@@ -365,7 +365,7 @@ STEPS
 .laptop-display {
     max-width: 50%;
     width: 100%;
-    margin-left: 75px;
+    padding-right: 75px;
     
 }
 
@@ -448,7 +448,7 @@ values
 .values { width: 100%;
         max-width: 1200px;
         margin: 0 auto;
-        margin-top: 350px;}
+        margin-top: 250px;}
 
 .values-wrapper{
     width: 100%;
@@ -489,6 +489,7 @@ values
   background-color: #6115ff;
   font-size: 18px;
   border-radius: 50px;
+  cursor: pointer ;
 }
 
 .v-icon_wrap {
@@ -532,7 +533,13 @@ pricing
    max-width: 100%;}
 
 .pricing-p {
+    max-width: 550px;
+    margin: 0 auto;
+    padding-top: 24px;
+    padding-bottom: 56px;
+    font-size: 17px;
     text-align: center;
+    color: #718096;
 }
 
 .pricing-h_three {
@@ -750,12 +757,15 @@ TESTIMONIAL
 .left-test_column {
   width: 100%;
   max-width: 50%;
+  padding-right: 32px;
+  padding-top: 100px;
 }
 
 
 .right-test_column {
   width: 100%;
   max-width: 50%;
+  padding-left: 32px;
 }
 
 .test-pic_wrap {
@@ -766,4 +776,98 @@ TESTIMONIAL
 .testimonial-pic {
   width: 100%;
   max-width: 100%;
+}
+
+.testimonial-pic_r-wrap {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  overflow: hidden;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.16)
+}
+
+.right-testimonial_pic {
+  width: 100px;
+}
+
+.testimonials-p {
+  color: #7c8ba1;
+  font-size: 18px;
+}
+
+.testimonials-user_xp {
+  color: #4a5568;
+  padding-top: 16px;}
+
+.testimonials-p_body {
+  color: #4a5568;
+  font-size: 16px;
+  line-height: 1.65;
+}
+.director-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.director-name {
+  color: #243e63;
+  padding-left: 24px;
+}
+
+.position-company {
+  color: #7c8ba1;
+  padding-left: 24px;
+}
+
+/*
+
+FOOT
+
+*/
+
+.foot {
+  padding-top: 250px;
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.foot-wrapper {
+  height: 100%;
+  max-height: 282px;
+  background-color: #6415FF;
+  align-items: center;
+  display: flex;
+}
+
+.foot-header {
+  max-width: 55%;
+  color: #f7fafc;
+  font-size: 36px;
+  padding-left: 150px;
+}
+
+.buttons {
+  justify-content: space-between;
+}
+
+.foot-start,
+.foot-contact { 
+  font-size: 16px;
+  border-radius: 50px;
+  padding: 20px 40px ;
+  color: #e5e7eb;
+  cursor: pointer;
+  font-weight: bold;
+
+}
+
+.foot-start {
+background-color: #f56565; 
+border-color: #f56565; 
+}
+
+.foot-contact {
+margin-left: 36px;
+color: #6415FF;
 }
