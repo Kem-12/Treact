@@ -879,7 +879,6 @@ TESTIMONIAL
 .testimonials-p {
   color: #7c8ba1;
   font-size: 18px;
-  line-height: 1.5;
 }
 
 .testimonials-user_xp {
@@ -1026,30 +1025,9 @@ footer {
   width: calc(100%/5);
 }
 
-.footer-h_two{
-  padding-bottom: 40px;
-}
-
-.footer-h_three
-{
-max-width: max-content;  
-cursor: pointer;
-font-size: 16px;
-font-weight: 400;
-transition: underline 500ms;
-}
-
-.footer-h_three:hover {
-  text-decoration: underline;
-  transition: ease-in-out 500ms;
-  transform: all;
-  text-underline-offset: 6px;
-}
-
-
 .footer-hr {
   background-color: #f7fafc16;
-  margin-top: 40px;
+  margin-top: 80px;
   margin-right: 56px;
 }
 
