@@ -282,7 +282,6 @@ input:hover {
   margin: 0 auto;
   width: 85%;
   height: 100vh;
-  
 }
 
 .feat-icons {
@@ -393,33 +392,49 @@ STEPS
 */
 
 .steps-wrapper {
-  max-width: 100%;
   width: 100%;
   display: flex;
   align-items: center;  
+  justify-content: center;
 }
 
-.laptop-display {
-  max-width: 50%;
-  width: 100%;
-  padding-right: 16px;
+.laptop__wrapper {
+  width: 50%;
+  min-width: 30%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 
-.step-img_wrap {
+.step__img--wrapper {
+  padding: 0 24px;
   width: 100%;
-  max-width: 100%;
 }
+
+.step-img {
+  width: 100%;
+}
+
 
 .three-step_wrapper {
-  max-width: 50%;
-  width: 100%;
+  display: flex;
+  flex-direction: column;
   
+}
+
+.two-step {
+  width: 100%;
+  max-width: 100%;
 }
 
 .three-step_wrap {
   width: 100%;
-  max-width: 100%;
-  
+  max-width: 100%;  
+}
+
+.three-step {
+  display: flex;
+  width: 100%;
 }
 
 .step-num {
@@ -431,16 +446,12 @@ STEPS
   color: #cbd5e0;
 }
 
-.three-step {
-  display: flex;
-  width: 100%;
-}
-
 .step-format {
   display: flex;
   flex-direction: column;
   align-items: start;
 }
+
 
 .step-seq {
   font-size: 22px;
@@ -451,12 +462,11 @@ STEPS
 .p-seq {
   color: #718096;
   font-size: 16px;
-  margin-top: 16px;
+  padding-top: 16px;
 }
 
 .etgs {
   margin: 0;
-  padding: 0;
   left: 20px;
   width: 100%;
   left: 8px;
@@ -470,10 +480,6 @@ STEPS
   padding-bottom: 56px;
 }
 
-.two-step {
-  width: 100%;
-  max-width: 100%;
-}
 
 /*
 
@@ -1189,7 +1195,7 @@ SCREEN SIZING
   }
 }
 
-@media (max-width: 768px){
+@media (max-width: 770px){
   h1 {
     font-size: 36px;
   }
@@ -1214,9 +1220,11 @@ SCREEN SIZING
   }
   
   .etgs {
-    
     text-align: left;
   }
+
+  .step__img--wrapper {
+  padding: 0 16px; }
   
   .quality-img_container {
     display: flex;
@@ -1332,6 +1340,9 @@ SCREEN SIZING
 
 
 @media (max-width: 600px) {
+ .step__img--wrapper {
+  padding: 0 8px;}
+ 
   .foot-start,
   .foot-contact {
     padding: 5px 4px ;
